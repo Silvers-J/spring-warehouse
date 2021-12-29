@@ -1,6 +1,7 @@
 package nl.averageflow.springwarehouse.controllers;
 
-import nl.averageflow.springwarehouse.services.ProductService;
+import nl.averageflow.springwarehouse.product.controller.ProductController;
+import nl.averageflow.springwarehouse.product.service.ProductService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
